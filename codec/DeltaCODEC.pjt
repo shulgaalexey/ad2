@@ -1,0 +1,43 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="D:\APP_CCS\Sim\DeltaCODEC_01\"
+ProjectType=Executable
+CPUFamily=TMS320C55XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="common.cpp"
+Source="Config1.cdb"
+Source="DeltaCodec.cpp"
+Source="generator.c"
+Source="main.cpp"
+Source="Config1cfg.cmd"
+
+[Generated Files]
+Source="Config1cfg.s55"
+Source="Config1cfg_c.c"
+
+["Compiler" Settings: "Debug"]
+Options=-g -q -fr"$(Proj_dir)\Debug" -d"_DEBUG" -ml
+
+["Compiler" Settings: "Release"]
+Options=-q -o2 -fr"$(Proj_dir)\Release"
+
+["DspBiosBuilder" Settings: "Debug"]
+Options=-v55
+
+["DspBiosBuilder" Settings: "Release"]
+Options=-v55
+
+["Linker" Settings: "Debug"]
+Options=-q -c -m".\Debug\DeltaCODEC.map" -o".\Debug\DeltaCODEC.out" -w -x
+
+["Linker" Settings: "Release"]
+Options=-q -c -m".\Release\DeltaCODEC.map" -o".\Release\DeltaCODEC.out" -w -x
+

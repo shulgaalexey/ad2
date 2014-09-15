@@ -1,0 +1,8 @@
+-z -q -c -m"./Debug/DeltaCODEC.map" -o"./Debug/DeltaCODEC.out" -w -x -i"c:/ti/c5500/bios/lib" -i"c:/ti/c5500/rtdx/lib" -i"c:/ti/c5500/xdais/lib" -i"c:/ti/c5500/cgtools/lib"
+"D:\APP_CCS\Sim\DeltaCODEC_01\Debug\common.obj"
+"D:\APP_CCS\Sim\DeltaCODEC_01\Debug\Config1cfg.obj"
+"D:\APP_CCS\Sim\DeltaCODEC_01\Debug\Config1cfg_c.obj"
+"D:\APP_CCS\Sim\DeltaCODEC_01\Debug\DeltaCodec.obj"
+"D:\APP_CCS\Sim\DeltaCODEC_01\Debug\generator.obj"
+"D:\APP_CCS\Sim\DeltaCODEC_01\Debug\main.obj"
+"D:\APP_CCS\Sim\DeltaCODEC_01\Config1cfg.cmd"

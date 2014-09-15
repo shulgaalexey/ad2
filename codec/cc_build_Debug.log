@@ -1,0 +1,8 @@
+---------------------------  DeltaCODEC.pjt - Debug  ---------------------------
+[main.cpp] "c:\ti\c5500\cgtools\bin\cl55" -g -q -fr"D:/APP_CCS/Sim/DeltaCODEC_01/Debug" -d"_DEBUG" -ml -@"Debug.lkf" "main.cpp"
+"main.cpp", line 63: warning: variable "Percent" was declared but never referenced
+
+[Linking...] "c:\ti\c5500\cgtools\bin\cl55" -@"Debug.lkf"
+
+Build Complete,
+  0 Errors, 1 Warnings, 0 Remarks.
